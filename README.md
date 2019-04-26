@@ -1,0 +1,2 @@
+# homestead-after
+Homestead settings
