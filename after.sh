@@ -1,3 +1,5 @@
+#!/bin/sh
+
 # Clone or update homestead-after
 echo 'Updating homestead-after...'
 if [ ! -d /home/vagrant/.homestead-after ]; then
@@ -22,3 +24,6 @@ git config --global user.email "spargo32@gmail.com"
 echo 'Updating grub fail timeout...'
 sudo cp -f /home/vagrant/.homestead-after/grub-default /etc/default/grub
 sudo update-grub
+
+# Install sybase to connect to MSSQL databases
+# /home/vagrant/.homestead-after/install-mssql-driver.sh
