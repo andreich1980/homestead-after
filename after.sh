@@ -16,7 +16,7 @@ cp /home/vagrant/.homestead-after/.bashrc /home/vagrant/.bashrc
 echo 'Updating .gitconfig...'
 cp /home/vagrant/.homestead-after/.gitconfig /home/vagrant/.gitconfig
 git config --global user.name "Andrew P"
-git config --global user.email "spargo32@gmail.com"
+git config --global user.email "andreich1980@gmail.com"
 
 # Grub fail timeout
 echo 'Updating grub fail timeout...'
